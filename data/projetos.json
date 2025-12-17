@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Vorteco",
+    "tags": ["IA Generativa", "Avatar Virtual", "Personagens Digitais"],
+    "description": "Mascote virtual interativo impulsionado por IA Generativa. O Vorteco é um modelo 3D de um soim (sagui) integrado a uma LLM, capaz de conversar naturalmente em tempo real. Ele atua como anfitrião do laboratório, apresentando nossos projetos, tecnologias e cases de sucesso de forma dinâmica e humanizada."
+  },
+  {
+    "id": "2",
+    "title": "Bora de Bike VR",
+    "description": "O simulador VR do projeto Bora de Bike introduz motoristas de ônibus numa experiência de realidade virtual imersiva que provoca o sentimento de empatia ao colocá-los no lugar de um ciclista que trafega por ciclofaixas de Fortaleza. O objetivo principal do simulador é conscientizá-los acerca dos impactos que a má conduta no trânsito pode causar aos ciclistas.",
+    "tags": ["VR", "IoT", "Simulador", "Mobilidade"]
+  },
+  {
+    "id": "3",
+    "tags": ["IoT", "Mobile", "Saúde"],
+    "title": "SAFE",
+    "description": "Foi desenvolvida uma solução AIoT (Inteligência Artificial das Coisas), usando sensores de cama e rede neural, para prevenir quedas de idosos em ambientes domésticos e hospitalares. O sistema é não invasivo e se destaca por sua detecção preditiva, pois alerta o cuidador imediatamente sobre posições de risco iminente, permitindo intervenção antes da queda e reduzindo a carga de trabalho de vigilância."
+  },
+  {
+    "id": "4",
+    "title": "Unifor Virtual Art Hub - UVAH",
+    "description": "Desenvolvimento de uma plataforma web para gerenciamento de criação de exposições em um ambiente virtual simulado do espaço cultural. O projeto consiste no desenvolvimento da interface para que a VIREX consiga criar suas próprias exposições semelhantes à \"Naza na Natureza\".",
+    "tags": ["VR", "Web", "Simulador"]
+  },
+  {
+    "id": "5",
+    "title": "Moema",
+    "tags": ["RA", "Realidade Mista", "Marketing", "Brand Experience"],
+    "description": "O projeto desenvolve um totem interativo de Realidade Aumentada (AR) para promover o engajamento com a mascote da Unifor, a Moema. A ferramenta permite que alunos, visitantes e colaboradores interajam e tirem fotos com a Moema em diversas versões temáticas (traje padrão, nadadora, corredora, entre outras). Esta solução transforma um espaço físico em um ponto de interação digital e lúdico, reforçando a identidade e a cultura da universidade."
+  },
+  {
+    "id": "6",
+    "title": "Orion",
+    "tags": ["Mobile", "IoT", "Saúde"],
+    "description": "A plataforma usa a gamificação para aumentar a cooperação e a adesão de crianças (2 a 8 anos) à terapia respiratória. A respiração é conduzida de forma interativa e os mini games nos intervalos mantêm o engajamento. Assim, o tratamento se torna mais leve e motivador para os pequenos, ao mesmo tempo que oferece uma abordagem mais dinâmica e eficaz para os fisioterapeutas."
+  },
+  {
+    "id": "7",
+    "title": "Medicação Sem Dano",
+    "description": "A administração inadequada de medicamentos é um problema recorrente no ambiente de saúde, podendo comprometer a segurança dos pacientes. Partindo desse problema, o projeto MSD - Medicação Sem Dano oferece um treinamento em realidade virtual, baseado na metodologia dos 6 certos da administração de medicamentos, para capacitar profissionais de saúde. Através de 12 cenários de complexidade variável, que incluem possíveis erros comuns e distratores, o treinamento prepara os profissionais para situações adversas, promovendo uma administração mais segura e eficiente. Além de contribuir para a prevenção de erros, o projeto utiliza tecnologia imersiva acessível via óculos de realidade virtual. Isso permite a simulação realística da aplicação de medicamentos sem riscos para os pacientes e sem desperdício de recursos, otimizando o aprendizado e garantindo maior acessibilidade ao treinamento.",
+    "tags": ["VR", "Simulador"]
+  },
+  {
+    "id": "8",
+    "title": "Passeio Pelo Campus",
+    "tags": ["MR", "IoT", "Interativo", "Experiência de Marca"],
+    "description": "O projeto utiliza uma bicicleta ergométrica para criar um tour interativo e digital pelo campus da Unifor. A experiência simula o avanço dentro da universidade à medida que o usuário pedala, combinando atividade física com entretenimento, e oferecendo uma forma inovadora e lúdica de conhecer o espaço físico da instituição."
+  },
+  {
+    "id": "9",
+    "title": "Cabeça de Mulato",
+    "tags": ["IA Generativa", "Avatar Virtual", "Humanos Digitais"],
+    "description": "Observa-se atualmente que as exposições de arte podem não despertar tanto interesse entre o público jovem, resultando em uma cultura popular menos diversificada. Como resposta a essa tendência, foi concebida uma abordagem inovadora para atrair especialmente o público jovem: desenvolver uma obra de arte interativa modelada em 3D, visando proporcionar uma experiência mais imersiva durante uma exposição. Esta iniciativa busca estimular a curiosidade e, consequentemente, promover uma introdução mais suave à cultura nacional, ao mesmo tempo que aumenta o envolvimento do espectador gerando um aprendizado interativo com mais inovação e atratividade."
+  },
+  {
+    "id": "10",
+    "title": "Cascavel",
+    "tags": ["VR", "Simulador", "Cultura"],
+    "description": "O projeto propõe uma experiência imersiva em Realidade Virtual (VR), transportando o visitante para a lenda da Cobra Gigante de Cascavel. Desenvolvido para o Complexo Cultural da UNIFOR, o objetivo é promover cultura e entretenimento. A vivência combina tecnologia e tradição, utilizando narrativa sequencial e efeitos visuais, sonoros e sensoriais para reviver o mito local de forma envolvente e lúdica."
+  }
+]
