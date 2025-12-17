@@ -5,7 +5,7 @@ import json
 import asyncio
 
 async def main():
-    with open('data/projects.json', 'r', encoding='utf-8') as file:
+    with open('data/projetos.json', 'r', encoding='utf-8') as file:
         projects_data = json.load(file)
         for project in projects_data:
             try:
@@ -18,4 +18,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
