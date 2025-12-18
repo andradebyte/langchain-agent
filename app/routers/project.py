@@ -28,5 +28,3 @@ async def list_projects(limit: int = 100):
     except Exception as e:
         logger.error(f"Failed to list projects: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-        
-    

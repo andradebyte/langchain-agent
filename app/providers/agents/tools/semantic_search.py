@@ -4,12 +4,12 @@ from typing import Type, Optional
 from app.services.logger import logger
 from app.services.weaviate_service import weaviate_service
 
-class SemanticSearchInput(BaseModel):
+class ProjectsSearchInput(BaseModel):
     """Input schema for semantic search."""
     query: str = Field(description="A pergunta ou termo de busca para encontrar projetos relevantes")
     limit: int = Field(default=5, description="Número máximo de resultados a retornar")
     
-class SemanticSearchTool(BaseTool):
+class ProjectsSearchTool(BaseTool):
     name: str = "busca_semantica_projetos"
     description: str = """
     Ferramenta para buscar projetos usando busca semântica.
@@ -23,7 +23,7 @@ class SemanticSearchTool(BaseTool):
     - "Busque projetos relacionados a pagamentos"
     """
     
-    args_schema: Type[BaseModel] = SemanticSearchInput
+    args_schema: Type[BaseModel] = ProjectsSearchInput
     def _run(self, query: str, limit: int = 5) -> str:
         """Execute semantic search synchronously"""
         try:

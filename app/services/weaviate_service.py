@@ -1,7 +1,6 @@
 import weaviate
 from app.schemas.project import ProjectUpload, ProjectResponse
 from app.services.logger import logger
-from app.settings import get_settings
 
 class WeaviateService:
     def __init__(self):

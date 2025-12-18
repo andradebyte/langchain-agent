@@ -29,14 +29,12 @@ class ProjectResponse(BaseModel):
     title: str
     description: str
     tags: list[str]
-    distance: float
     
     class Config:
         json_schema_extra = {
             "example": {
                 "title": "Nome do projeto.",
                 "description": "Descrição do projeto",
-                "tags": ["TAG1","TAG2","TAG3"],
-                "distance": 0.06
+                "tags": ["TAG1","TAG2","TAG3"]
             }
         }

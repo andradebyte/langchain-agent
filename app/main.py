@@ -14,7 +14,7 @@ app.include_router(api_router)
 @app.on_event("startup")
 async def startup():
     logger.info("API started successfully")
-    logger.info(get_settings().OPENAI_API_KEY)
+    # logger.info(get_settings().OPENAI_API_KEY)
     
 @app.on_event("shutdown")
 async def shutdown_event():

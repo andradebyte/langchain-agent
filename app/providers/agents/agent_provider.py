@@ -5,15 +5,12 @@ from app.settings import get_settings
 from dataclasses import dataclass
 from app.providers.agents.tools.tool_registry import get_tools
 
-
 settings = get_settings()
-os.environ["OPENAI_API_KEY"] = settings.OPENAI_API_KEY
 
 @dataclass
 class RuntimeContext:
     language: str = "pt-BR"
     booth_id: str | None = None
-
 class Agent:
     def __init__(self):
         self.llm = ChatOllama(
